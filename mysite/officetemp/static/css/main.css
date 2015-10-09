@@ -1,0 +1,118 @@
+/* office temp main.css */
+body{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body.cold {
+      background: url(../img/cold-bg.jpg) no-repeat center center fixed;
+}
+
+body.hot {
+      background: url(../img/hot-bg.jpg) no-repeat center center fixed;
+}
+
+body.comfy {
+      background: url(../img/comfortable-bg.jpg) no-repeat center center fixed;
+}
+
+header .container {
+    opacity: 0.7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    width: 100%;
+    height: 80px;
+}
+
+h1 {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    color: #ccc;
+    font-family: serif;
+    font-size: 50px;
+}
+
+main .temp-circle {
+    position: absolute;
+    top: 150px;
+    left: 40px;
+    width:300px;
+    height:300px;
+    border-radius: 150px;
+    border: 15px solid #ccc;
+    background-color:#000;
+    opacity: 0.7;
+}
+
+.temperature {
+    position: absolute;
+    top: 70px;
+    left: 55px;
+    color: #fff;
+    font-size: 130px;
+}
+
+.outfit.cold {
+    background: url('../img/sweater.png') no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 200px;
+    left: 170px;
+    width: 39px;
+    height: 47px;
+}
+
+.outfit.hot {
+    background: url('../img/tanktop.png') no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 200px;
+    left: 180px;
+    width: 31px;
+    height: 51px;
+}
+
+.outfit.comfy {
+    background: url('../img/shirt.png') no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 200px;
+    left: 160px;
+    width: 62px;
+    height: 52px;
+}
+
+.person.cold {
+    background: url('../img/cold-person.png') no-repeat;
+    background-size: 100% 100%;
+    width:357px;
+    height:289px;
+    position: absolute;
+    top: 150px;
+    left: 500px;
+}
+
+.person.hot {
+    background: url('../img/hot-person.png') no-repeat;
+    background-size: 100% 100%;
+    width:432px;
+    height:303px;
+    position: absolute;
+    top: 150px;
+    left: 500px;
+}
+
+.person.comfy {
+    background: url('../img/comfortable-person.png') no-repeat;
+    background-size: 100% 100%;
+    width:310px;
+    height:336px;
+    position: absolute;
+    top: 150px;
+    left: 500px;
+}
