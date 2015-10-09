@@ -31,7 +31,7 @@
     <main>
         <div class="container">
             <div class="temp-circle">
-                <div class="temperature">{{ temp_f }}&deg;</div>
+                <div class="temperature">{{ temp_f|floatformat:"0" }}&deg;</div>
             </div>
             <div class="outfit {{ room_condition }}"></div>
             <div class="person {{ room_condition }}"></div>
