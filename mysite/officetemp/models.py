@@ -7,9 +7,9 @@ class Temperature(models.Model):
         return self.degrees
 
     def display_room_condition(self):
-        if self.degrees > 70:
+        if self.degrees > 72:
             room_condition = "hot"
-        elif self.degrees < 70:
+        elif self.degrees < 68:
             room_condition = "cold"
         else:
             room_condition = "comfy"
